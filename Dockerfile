@@ -1,6 +1,6 @@
 FROM quay.io/herbyme/docker-elasticsearch:6.6.0
 
-MAINTAINER pjpires@gmail.com
+MAINTAINER yeung.herbert@gmail.com
 
 # Override config, otherwise plug-in install will fail
 ADD config /elasticsearch/config
